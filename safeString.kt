@@ -6,6 +6,8 @@ fun safeString(s: String): String {
 }
 
 fun main() {
+    println(safeString("`"));
     println(safeString("`ls -l`"));
-    println("`echo me`")
+    println(safeString("`echo me`"));
+
 }

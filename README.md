@@ -17,9 +17,9 @@ Get Airport Traffic Delays information from FAA
 ```
 > python faa.py JFK
 
-John F Kennedy Intl, JFK, New York ::: Delays : False 
-Status : No known delays for this airport
-Weather : [{'Temp': ['Mostly Cloudy']}]
+John F Kennedy International, JFK ::: Delay (mins) : 127.0 
+Status : {'airportId': 'JFK', 'reason': 'TM Initiatives:SWAP:WX', 'arrivalDeparture': {'type': 'Departure', 'min': '1 hour and 31 minutes', 'max': '1 hour and 45 minutes', 'trend': 'Increasing'}, 'updateTime': '2025-07-08T20:33:00Z', 'averageDelay': '90', 'trend': 'increasing'}
+Weather : thunderstorms
 ```
 
 # CDC Flu Stats
@@ -70,3 +70,11 @@ Usage:
 
     --------------------------------------------------------------------
  ```
+
+# Safe Strings :D
+```
+println(safeString("`"));
+
+_:D_ 
+
+```
